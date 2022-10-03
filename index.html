@@ -73,6 +73,7 @@
             font-size: 40px;
             margin-bottom: 55px;
             border-radius: 80px;
+            font-family: San Francisco Display;
         }
 
         .yhl {
@@ -262,9 +263,10 @@
         .sc:hover{
             opacity: 1;
         }
+
         @font-face {
-            font-family: SourceHanSansCN-Regular ;
-            src: url("ziti/SourceHanSansCN-Regular.otf");
+            font-family: San Francisco Display;
+            src: url("ziti/San Francisco Display.ttf");
         }
 
         .function-box::-webkit-scrollbar {
@@ -335,12 +337,12 @@
 
     </style>
 </head>
-<body oncontextmenu=self.event.returnValue=false style="background-color: rgb(218,185,149)">
+<body oncontextmenu=self.event.returnValue=false style="background-color: rgb(218,185,149);font-family: San Francisco Display;">
 <div class="wrapper">
     <div class="bbox">
         <div style="background-color: rgb(39,49,74);height: 281px;width: 1080px;border-bottom: 1px solid rgb(224,224,224);">
             <div contenteditable class="dm"
-                   style="display: inline-block; font-family:方正兰亭准黑简体;font-size:50px;border:none;margin-top:120px;margin-left:89px; width:100px;height: 55px; background-color:transparent;color: rgb(255,255,255);float: left;clear: both;"
+                   style="display: inline-block; font-family: San Francisco Display;;font-size:50px;border:none;margin-top:120px;margin-left:89px; width:100px;height: 55px; background-color:transparent;color: rgb(255,255,255);float: left;clear: both;"
                    type="text"
                    name="text"
                  value="76">76</div>
@@ -563,7 +565,7 @@
         let itemDiv = document.createElement('div')
         itemDiv.className = 'dialog-item'
         itemDiv.innerHTML = "<img  class='zuo' src=tutu/ss/6.png style='position:absolute;margin-left: 138px;margin-top: px;'>" +
-            "<input class='sc' style='font-family: SourceHanSansCN-Regular; font-size:40px;position:absolute;width:95px;height: 95px;margin-left: 40px;' type='button' onclick='test(this)' value='删除'/>"
+            "<input class='sc' style='font-family: font-family: San Francisco Display;; font-size:40px;position:absolute;width:95px;height: 95px;margin-left: 40px;' type='button' onclick='test(this)' value='删除'/>"
         // 2. 创建头像
         let headDiv = document.createElement('div')
         headDiv.className = 'left-head-img'
@@ -574,7 +576,7 @@
         // 3. 创建对话框div
         let dialogDiv = document.createElement('div')
 
-            dialogDiv.innerHTML = '<div contenteditable style="margin-bottom: 20px; position: relative; padding:20px 20px 35px 30px;border-radius: 40px;  margin-left: -25px;margin-top:5px; background-color: rgb(255,255,255); font-size: 50px; display: inline-block; box-sizing: border-box;max-width: 600px;">点击编辑</div>' +
+            dialogDiv.innerHTML = '<div contenteditable style="font-family: San Francisco Display;margin-bottom: 20px; position: relative; padding:20px 20px 35px 30px;border-radius: 40px;  margin-left: -25px;margin-top:5px; background-color: rgb(255,255,255); font-size: 50px; display: inline-block; box-sizing: border-box;max-width: 600px;">点击编辑</div>' +
                 '\'<div contenteditable style="position: relative; display: inline-block;box-sizing: border-box;font-size: 30px;top:20px; margin-left: 15px;color: white;">12:00</div>\'';
 
 
@@ -596,7 +598,7 @@
         let itemDiv = document.createElement('div')
         itemDiv.className = 'dialog-item'
         itemDiv.innerHTML =
-            "<input class='sc' style='font-family: SourceHanSansCN-Regular;font-size:40px;position:absolute;width:95px;height: 95px;margin-left: 40px;' type='button' onclick='test(this)' value='删除'/>"
+            "<input class='sc' style='font-family: font-family: San Francisco Display;;font-size:40px;position:absolute;width:95px;height: 95px;margin-left: 40px;' type='button' onclick='test(this)' value='删除'/>"
         // 2. 创建头像
         let headDiv = document.createElement('div')
         headDiv.className = 'left-head-img'
@@ -606,8 +608,8 @@
         }
         // 3. 创建对话框div
         let zyDiv = document.createElement('div')
-        zyDiv.innerHTML = "<img src='tutu/ss/11.png' style='margin-left: -40px;margin-bottom: 20px;'><div contenteditable style='display: inline-block; font-family: SourceHanSansCN-Regular;background-color:transparent;border:none;text-align:center;float: left;position: absolute;margin-left: -560px;margin-top: 55px;font-size: 50px;width: 500px;'value='奥巴马'>奥巴马</div>" +
-            "<div contenteditable style='display: inline-block; font-family: SourceHanSansCN-Regular;color:rgb(255,255,255);background-color:transparent;border:none;margin-left:20px;margin-top: 140px;position: absolute;font-size: 30px;width: 100px;'value='20:00'>20:00</div>"
+        zyDiv.innerHTML = "<img src='tutu/ss/11.png' style='font-family: San Francisco Display;margin-left: -40px;margin-bottom: 20px;'><div contenteditable style='display: inline-block; font-family: font-family: San Francisco Display;;background-color:transparent;border:none;text-align:center;float: left;position: absolute;margin-left: -560px;margin-top: 55px;font-size: 50px;width: 500px;'value='奥巴马'>奥巴马</div>" +
+            "<div contenteditable style='font-family: San Francisco Display;display: inline-block; font-family: font-family: San Francisco Display;;color:rgb(255,255,255);background-color:transparent;border:none;margin-left:20px;margin-top: 140px;position: absolute;font-size: 30px;width: 100px;'value='20:00'>20:00</div>"
         //
         // 4. 把头像和对话框添加到单条数据中
         itemDiv.appendChild(headDiv)
@@ -624,7 +626,7 @@
         let itemDiv = document.createElement('div')
         itemDiv.className = 'dialog-item'
         itemDiv.innerHTML =
-            "<input class='sc' style='font-family: SourceHanSansCN-Regular;font-size:40px;position:absolute;width:95px;height: 95px;margin-left: 40px;' type='button' onclick='test(this)' value='删除'/>"
+            "<input class='sc' style='font-family: font-family: San Francisco Display;;font-size:40px;position:absolute;width:95px;height: 95px;margin-left: 40px;' type='button' onclick='test(this)' value='删除'/>"
         // 2. 创建头像
         let headDiv = document.createElement('div')
         headDiv.className = 'left-head-img'
@@ -634,8 +636,8 @@
         }
         // 3. 创建对话框div
         let zyDiv = document.createElement('div')
-        zyDiv.innerHTML = "<img src='tutu/ss/12.png' style='margin-left: -40px;margin-bottom: 20px;'><div contenteditable style='display: inline-block; font-family: SourceHanSansCN-Regular;background-color:transparent;border:none;float: left;position: absolute;margin-left: -380px;margin-top: 15px;font-size: 50px;width: 300px;'value='12:50'>12:45</div>" +
-            "<div contenteditable style='display: inline-block; font-family: SourceHanSansCN-Regular;color:rgb(255,255,255);background-color:transparent;border:none;margin-left:20px;margin-top: 60px;position: absolute;font-size: 30px;width: 100px;'value='20:00'>20:00</div>"
+        zyDiv.innerHTML = "<img src='tutu/ss/12.png' style='font-family: San Francisco Display;margin-left: -40px;margin-bottom: 20px;'><div contenteditable style='display: inline-block; font-family: font-family: San Francisco Display;;background-color:transparent;border:none;float: left;position: absolute;margin-left: -380px;margin-top: 15px;font-size: 50px;width: 300px;'value='12:50'>12:45</div>" +
+            "<div contenteditable style='display: inline-block; font-family: font-family: San Francisco Display;;color:rgb(255,255,255);background-color:transparent;border:none;margin-left:20px;margin-top: 60px;position: absolute;font-size: 30px;width: 100px;'value='20:00'>20:00</div>"
         //
         // 4. 把头像和对话框添加到单条数据中
         itemDiv.appendChild(headDiv)
@@ -654,13 +656,13 @@
         let itemDiv = document.createElement('div')
         itemDiv.className = ''
         itemDiv.innerHTML = "<img  class='zuo' src=tutu/ss/8.png style='position:absolute;margin-left: 1006px;margin-top: -px;'>" +
-            "<input class='sc' style='font-family: SourceHanSansCN-Regular;font-size:40px;height:95px;width:95px;position:absolute;margin-left: 925px;' type='button' onclick='test(this)' value='删除'/>"
+            "<input class='sc' style='font-family: font-family: San Francisco Display;;font-size:40px;height:95px;width:95px;position:absolute;margin-left: 925px;' type='button' onclick='test(this)' value='删除'/>"
 
         // 3. 创建对话框div
         let dialogDiv = document.createElement('div')
-        dialogDiv.innerHTML = '<div contenteditable style="display: flex; margin-bottom: 20px; float: right; position: relative; padding:20px 20px 35px 30px;border-radius: 40px;  margin-right:22px;margin-top:5px; background-color: rgb(133,226,73); font-size: 50px;  box-sizing: border-box;max-width: 600px;">点击编辑</div>' +
-            '<div contenteditable style="float: right; position: relative; box-sizing: border-box;font-size: 30px;top:65px; margin-right: 20px;color: rgb(253,254,254);">12:00</div>' +
-            '<div contenteditable style=\'position: relative; font-family: SourceHanSansCN-Regular;color:rgb(253,254,254);float: right;right: -78px;top: 25px;font-size: 30px;\'>已读</div>';
+        dialogDiv.innerHTML = '<div contenteditable style="font-family: San Francisco Display;display: flex; margin-bottom: 20px; float: right; position: relative; padding:20px 20px 35px 30px;border-radius: 40px;  margin-right:22px;margin-top:5px; background-color: rgb(133,226,73); font-size: 50px;  box-sizing: border-box;max-width: 600px;">点击编辑</div>' +
+            '<div contenteditable style="font-family: San Francisco Display;float: right; position: relative; box-sizing: border-box;font-size: 30px;top:65px; margin-right: 20px;color: rgb(253,254,254);">12:00</div>' +
+            '<div contenteditable style=\'position: relative; font-family: font-family: San Francisco Display;;color:rgb(253,254,254);float: right;right: -78px;top: 25px;font-size: 30px;\'>已读</div>';
 
 
 
@@ -679,7 +681,7 @@
         let itemDiv = document.createElement('div')
 
         itemDiv.innerHTML =
-            "<input class='sc' style='font-family: SourceHanSansCN-Regular;font-size:40px;height:95px;width:95px;position:absolute;margin-left: 925px;' type='button' onclick='test(this)' value='删除'/>"
+            "<input class='sc' style='font-family: font-family: San Francisco Display;;font-size:40px;height:95px;width:95px;position:absolute;margin-left: 925px;' type='button' onclick='test(this)' value='删除'/>"
         // 2. 创建头像
         let headDiv = document.createElement('div')
         headDiv.className = 'y-head-img'
@@ -690,9 +692,9 @@
 
 
         let abcDiv = document.createElement('div')
-        abcDiv.innerHTML = "<img src='tutu/ss/9.png' style='float: right;margin-bottom: 20px;'> <div contenteditable style='display: inline-block; border:none;background-color:transparent;position: absolute;float: right;margin-left: 665px;width: 200px;margin-top: 20px;font-size: 50px;' value='10:10'>10:00</div>" +
-            "<div contenteditable style='display: inline-block; font-family: SourceHanSansCN-Regular;color:rgb(255,255,255);background-color:transparent;border:none;float: right;margin-right:10px;margin-top: 25px;font-size: 30px;direction: rtl;' value='已读'>已读</div>" +
-            "\"<div contenteditable style='display: inline-block; font-family: SourceHanSansCN-Regular;color:rgb(255,255,255);background-color:transparent;border:none;float: right;margin-right:-60px;margin-top: 60px;font-size: 30px;direction: rtl;' value='20:00'>20:00</div>\""
+        abcDiv.innerHTML = "<img src='tutu/ss/9.png' style='font-family: San Francisco Display;float: right;margin-bottom: 20px;'> <div contenteditable style='display: inline-block; border:none;background-color:transparent;position: absolute;float: right;margin-left: 665px;width: 200px;margin-top: 20px;font-size: 50px;' value='10:10'>10:00</div>" +
+            "<div contenteditable style='display: inline-block; font-family: font-family: San Francisco Display;;color:rgb(255,255,255);background-color:transparent;border:none;float: right;margin-right:10px;margin-top: 25px;font-size: 30px;direction: rtl;' value='已读'>已读</div>" +
+            "\"<div contenteditable style='display: inline-block; font-family: font-family: San Francisco Display;;color:rgb(255,255,255);background-color:transparent;border:none;float: right;margin-right:-60px;margin-top: 60px;font-size: 30px;direction: rtl;' value='20:00'>20:00</div>\""
 
         // 4. 把头像和对话框添加到单条数据中 ( 这个要和他人的顺序相反 )
 
@@ -710,8 +712,8 @@
         // 1. 创建一条数据
         let itemDiv = document.createElement('div')
         itemDiv.className = 'dialog-item'
-        itemDiv.innerHTML ="<div contenteditable style='display: inline-block; font-family: SourceHanSansCN-Regular;padding:10px 20px 10px 20px;font-size:40px;border-radius:30px;background-color: rgb(0,0,0,10%);text-align: center;margin-bottom:56px;margin-left: auto;margin-right:auto;border: none;color: rgb(253,254,254);width: 100px;' value='15:00'>15:00</div>" +
-            "<input class='sc' style='font-family: SourceHanSansCN-Regular;font-size:40px;height:95px;width:95px;position:absolute;margin-left: 925px;' type='button' onclick='test(this)' value='删除'/>"
+        itemDiv.innerHTML ="<div contenteditable style='display: inline-block; font-family: font-family: San Francisco Display;;padding:10px 20px 10px 20px;font-size:40px;border-radius:30px;background-color: rgb(0,0,0,10%);text-align: center;margin-bottom:56px;margin-left: auto;margin-right:auto;border: none;color: rgb(253,254,254);width: 110px;' value='15:00'>15:00</div>" +
+            "<input class='sc' style='font-family: font-family: San Francisco Display;;font-size:40px;height:95px;width:95px;position:absolute;margin-left: 925px;' type='button' onclick='test(this)' value='删除'/>"
         // 3. 创建对话框div
 
         // 4. 把头像和对话框添加到单条数据中 ( 这个要和他人的顺序相反 )
@@ -725,7 +727,7 @@
         let itemDiv = document.createElement('div')
         itemDiv.className = 'dialog-item'
         itemDiv.innerHTML = "" +
-            "<input class='sc' style='font-family: SourceHanSansCN-Regular;font-size:40px;height:95px;width:95px;position:absolute;margin-left: 925px;' type='button' onclick='test(this)' value='删除'/>"
+            "<input class='sc' style='font-family: font-family: San Francisco Display;;font-size:40px;height:95px;width:95px;position:absolute;margin-left: 925px;' type='button' onclick='test(this)' value='删除'/>"
 
         // 3. 创建对话框div
         let dialogDiv = document.createElement('div')
@@ -744,7 +746,7 @@
         let itemDiv = document.createElement('div')
         itemDiv.className = ''
         itemDiv.innerHTML =
-            "<input class='sc' style='font-family: SourceHanSansCN-Regular;font-size:40px;height:95px;width:95px;position:absolute;margin-left: 925px;' type='button' onclick='test(this)' value='删除'/>"
+            "<input class='sc' style='font-family: font-family: San Francisco Display;;font-size:40px;height:95px;width:95px;position:absolute;margin-left: 925px;' type='button' onclick='test(this)' value='删除'/>"
         // 2. 创建头像
         let headDiv = document.createElement('div')
         headDiv.className = 'right-head-img'
@@ -757,12 +759,12 @@
         dialogDiv.innerHTML = "            <div style='position:relative;'>\n" +
             "                <img src=\"tutu/ss/10.png\" style=\"position:relative;margin-bottom:30px;float: right;\">\n" +
             "                <div contenteditable class=\"dm\"\n" +
-            "                       style=\"display: inline-block; text-align:center;font-family: SourceHanSansCN-Regular;position:absolute;font-size:50px;margin-left:450px;border:none;margin-top:55px; width:505px;height: 55px; background-color:transparent;float: right;\"\n" +
+            "                       style=\"display: inline-block; text-align:center;font-family: font-family: San Francisco Display;;position:absolute;font-size:50px;margin-left:450px;border:none;margin-top:55px; width:505px;height: 55px; background-color:transparent;float: right;\"\n" +
             "                       type=\"text\"\n" +
             "                       name=\"text\"\n" +
             "                       value=\"黑寡妇\">黑寡妇</div>\n" +
-            "<div contenteditable style='display: inline-block; font-family: SourceHanSansCN-Regular;color:rgb(255,255,255);background-color:transparent;border:none;direction: rtl;position: absolute;margin-left: 200px;margin-top: 100px;font-size: 30px;width: 200px;' value='已读'>已读</div>" +
-            "<div contenteditable style='display: inline-block; font-family: SourceHanSansCN-Regular;color:rgb(255,255,255);background-color:transparent;border:none;direction: rtl;position: absolute;margin-left: 200px;margin-top: 140px;font-size: 30px;width: 200px;'value='19:34'>19:34</div>" +
+            "<div contenteditable style='display: inline-block; font-family: font-family: San Francisco Display;;color:rgb(255,255,255);background-color:transparent;border:none;direction: rtl;position: absolute;margin-left: 200px;margin-top: 100px;font-size: 30px;width: 200px;' value='已读'>已读</div>" +
+            "<div contenteditable style='display: inline-block; font-family: font-family: San Francisco Display;;color:rgb(255,255,255);background-color:transparent;border:none;direction: rtl;position: absolute;margin-left: 200px;margin-top: 140px;font-size: 30px;width: 200px;'value='19:34'>19:34</div>" +
             "            </div>";
 
 
@@ -841,7 +843,7 @@
             dialogImg.className = 'left-custom-emoji'
 
             let youDiv = document.createElement('div')
-            youDiv.innerHTML = "<div contenteditable style='display: inline-block; font-family: SourceHanSansCN-Regular;width:300px;position:absolute;color:rgb(255,255,255);background-color:transparent;border:none;margin-left:-320px;margin-top: 750px;font-size: 30px;' value='17:00'>17:00</div>"
+            youDiv.innerHTML = "<div contenteditable style='display: inline-block; font-family: font-family: San Francisco Display;;width:300px;position:absolute;color:rgb(255,255,255);background-color:transparent;border:none;margin-left:-320px;margin-top: 750px;font-size: 30px;' value='17:00'>17:00</div>"
 
             // 5. 把头像和对话框添加到单条数据中
             itemDiv.appendChild(headDiv)
@@ -893,7 +895,7 @@
             dialogImg.className = 'right-custom-emoji'
 
             let youDiv = document.createElement('div')
-            youDiv.innerHTML = "<div contenteditable style='display: inline-block; font-family: SourceHanSansCN-Regular;position:absolute;color:rgb(255,255,255);direction: rtl;background-color:transparent;border:none;margin-left: 400px;margin-top: 750px;font-size: 30px;' value='17:00'>17:54</div>"
+            youDiv.innerHTML = "<div contenteditable style='display: inline-block; font-family: font-family: San Francisco Display;;position:absolute;color:rgb(255,255,255);direction: rtl;background-color:transparent;border:none;margin-left: 400px;margin-top: 750px;font-size: 30px;' value='17:00'>17:54</div>"
             // 5. 把头像和对话框添加到单条数据中
             itemDiv.appendChild(youDiv)
             itemDiv.appendChild(dialogImg)
